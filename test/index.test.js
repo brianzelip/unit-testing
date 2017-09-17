@@ -24,5 +24,5 @@ test('Check quarters', t => {
 test('Check error', t => {
   t.throws(() => {
     getAmount('x');
-  });
+  }, `Unrecognized coin x`);
 });
