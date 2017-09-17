@@ -4,12 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "ava --verbose"
+    "test": "nyc ava --verbose"
   },
   "keywords": ["unit testing", "js"],
   "author": "bzelip",
   "license": "MIT",
   "devDependencies": {
-    "ava": "^0.22.0"
+    "ava": "^0.22.0",
+    "nyc": "^11.2.1"
   }
 }
